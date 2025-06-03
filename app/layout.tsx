@@ -14,7 +14,16 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   title: "Catálogo de Productos al por Mayor",
   description: "Plataforma para revendedores",
-    generator: 'v0.dev'
+  generator: 'v0.dev',
+  icons: {
+    icon: '/favicon.ico',
+    shortcut: '/favicon.ico',
+    apple: '/apple-touch-icon.png',
+    other: {
+      rel: 'apple-touch-icon-precomposed',
+      url: '/apple-touch-icon-precomposed.png',
+    },
+  },
 }
 
 export default function RootLayout({
