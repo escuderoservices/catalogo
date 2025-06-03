@@ -382,7 +382,7 @@ export const products: Product[] = [
     cbm: 0.04,
     weight: 0,
     price: 1319,
-    suggestedRetailPrice: 1649,
+    suggestedRetailPrice: 2300,
   },
   {
     id: "32",
@@ -394,7 +394,7 @@ export const products: Product[] = [
     cbm: 0.04,
     weight: 0,
     price: 1319,
-    suggestedRetailPrice: 1649,
+    suggestedRetailPrice: 2300,
   },
   {
     id: "33",
@@ -406,7 +406,7 @@ export const products: Product[] = [
     cbm: 0.04,
     weight: 0,
     price: 1026,
-    suggestedRetailPrice: 1283,
+    suggestedRetailPrice: 4995,
   },
   {
     id: "34",
@@ -418,7 +418,7 @@ export const products: Product[] = [
     cbm: 0.04,
     weight: 0,
     price: 1026,
-    suggestedRetailPrice: 1283,
+    suggestedRetailPrice: 4995,
   },
   {
     id: "35",
@@ -430,7 +430,7 @@ export const products: Product[] = [
     cbm: 0.06,
     weight: 0,
     price: 1677,
-    suggestedRetailPrice: 2096,
+    suggestedRetailPrice: 5500,
   },
   {
     id: "36",
@@ -442,7 +442,7 @@ export const products: Product[] = [
     cbm: 0.06,
     weight: 0,
     price: 1677,
-    suggestedRetailPrice: 2096,
+    suggestedRetailPrice: 5500,
   },
   {
     id: "37",
@@ -454,7 +454,7 @@ export const products: Product[] = [
     cbm: 0.06,
     weight: 0,
     price: 1677,
-    suggestedRetailPrice: 2096,
+    suggestedRetailPrice: 5500,
   },
   {
     id: "38",
@@ -466,7 +466,7 @@ export const products: Product[] = [
     cbm: 0.02,
     weight: 0,
     price: 1204,
-    suggestedRetailPrice: 3990,
+    suggestedRetailPrice: 2990,
   },
   {
     id: "39",
@@ -526,7 +526,7 @@ export const products: Product[] = [
     cbm: 0.17,
     weight: 0,
     price: 4781,
-    suggestedRetailPrice: 8100,
+    suggestedRetailPrice: 7100,
   },
   {
     id: "44",
