@@ -477,7 +477,7 @@ export const products: Product[] = [
     finish: "blanco",
     cbm: 0.11,
     weight: 0,
-    price: 3432.09,
+    price: 3432,
     suggestedRetailPrice: 6500,
   },
   {
@@ -489,7 +489,7 @@ export const products: Product[] = [
     finish: "negro",
     cbm: 0.11,
     weight: 0,
-    price: 3432.09,
+    price: 3432,
     suggestedRetailPrice: 6500,
   },
   {
@@ -501,7 +501,7 @@ export const products: Product[] = [
     finish: "transparente",
     cbm: 0.09,
     weight: 0,
-    price: 3258.17,
+    price: 3258,
     suggestedRetailPrice: 5999,
   },
   {
@@ -513,7 +513,7 @@ export const products: Product[] = [
     finish: "transparente",
     cbm: 0.11,
     weight: 0,
-    price: 3875.89,
+    price: 3876,
     suggestedRetailPrice: 6950,
   },
   {

@@ -12,7 +12,7 @@ const poppins = Poppins({
 })
 
 export const metadata: Metadata = {
-  title: "Catálogo de Productos al por Mayor",
+  title: "Catalogo Digital Venta Mayorista",
   description: "Plataforma para revendedores",
   generator: 'v0.dev',
   icons: {

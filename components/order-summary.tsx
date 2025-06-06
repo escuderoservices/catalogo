@@ -22,6 +22,7 @@ interface OrderSummaryProps {
     quantity: number
     totalCbm: number
     totalPrice: number
+    suggestedRetailPrice: number
   }>
 }
 
@@ -41,11 +42,12 @@ export function OrderSummary({
     // Crear el encabezado del CSV
     const headers = [
       'Descripción',
-      'Colección',
-      'SKU',
-      'Terminación',
-      'Volumen (CBM)',
       'Precio mayorista',
+      'Precio sugerido',
+      'Margen bruto',
+      'Terminación',
+      'SKU',
+      'Volumen (CBM)',
       'Cantidad',
       'Total CBM',
       'Total'
@@ -54,11 +56,12 @@ export function OrderSummary({
     // Crear las filas del CSV
     const rows = filteredProducts.map(product => [
       `"${product.name}"`,
-      `"${product.collection}"`,
-      `"${product.sku}"`,
-      `"${product.finish}"`,
-      product.cbm.toFixed(2),
       formatPrice(product.price).replace(/[$,]/g, ''),
+      formatPrice(product.suggestedRetailPrice).replace(/[$,]/g, ''),
+      `${((product.suggestedRetailPrice - product.price) / product.suggestedRetailPrice * 100).toFixed(1)}%`,
+      `"${product.finish}"`,
+      `"${product.sku}"`,
+      product.cbm.toFixed(2),
       product.quantity,
       product.totalCbm.toFixed(2),
       formatPrice(product.totalPrice).replace(/[$,]/g, '')
@@ -138,7 +141,13 @@ export function OrderSummary({
             <div className="space-y-1">
               <p className="text-sm text-gray-500">Margen Bruto Estimado</p>
               <div className="flex items-end gap-2">
-                <p className="text-2xl font-bold text-emerald-600 font-poppins">
+                <p className={`text-2xl font-bold font-poppins ${
+                  averageGrossMargin >= 50 ? 'text-emerald-600' :
+                  averageGrossMargin >= 40 ? 'text-green-500' :
+                  averageGrossMargin >= 30 ? 'text-lime-500' :
+                  averageGrossMargin >= 20 ? 'text-yellow-500' :
+                  'text-orange-500'
+                }`}>
                   {totalItems > 0 ? `${averageGrossMargin.toFixed(1)}%` : "-"}
                 </p>
               </div>
