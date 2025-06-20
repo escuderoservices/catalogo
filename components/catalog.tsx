@@ -173,7 +173,7 @@ export function Catalog() {
       <div className="bg-gray-50 p-4 rounded-lg">
         <h3 className="text-base font-semibold mb-3 font-poppins">Información importante sobre tu compra:</h3>
         <ul className="space-y-1.5 text-sm text-gray-700">
-          <li>• Compra mínima: $20.000 para acceder a los precios mayoristas.</li>
+          <li>• Compra mínima: $10.000 para acceder a los precios mayoristas.</li>
           <li>• Cantidades mínima: 5 unidades por producto.</li>
           <li>• Retiro en zona ex Mercado Modelo (Montevideo).</li>
           <li>• Envíos: En caso de requerir, se calcula según el volumen total y el destino.</li>
@@ -245,9 +245,9 @@ export function Catalog() {
                     </div>
                   </TableCell>
                   <TableCell className="font-medium">{product.name}</TableCell>
-                  <TableCell className="text-right bg-gray-50 font-bold">{formatPrice(product.price)}</TableCell>
-                  <TableCell className="text-right">{formatPrice(product.suggestedRetailPrice)}</TableCell>
-                  <TableCell className="text-right bg-gray-100">
+                  <TableCell className="text-center bg-gray-50 font-bold">{formatPrice(product.price)}</TableCell>
+                  <TableCell className="text-center">{formatPrice(product.suggestedRetailPrice)}</TableCell>
+                  <TableCell className="text-center bg-gray-100">
                     <span className={`font-medium ${
                       product.grossMargin >= 50 ? 'text-emerald-600' :
                       product.grossMargin >= 40 ? 'text-green-500' :
@@ -260,7 +260,7 @@ export function Catalog() {
                   </TableCell>
                   <TableCell>{product.finish}</TableCell>
                   <TableCell>{product.sku}</TableCell>
-                  <TableCell className="text-right">{product.cbm.toFixed(2)}</TableCell>
+                  <TableCell className="text-center">{product.cbm.toFixed(2)}</TableCell>
                   <TableCell>
                     <div className="flex items-center gap-2">
                       <button
@@ -285,8 +285,8 @@ export function Catalog() {
                       </button>
                     </div>
                   </TableCell>
-                  <TableCell className="text-right bg-gray-50">{product.totalCbm.toFixed(2)}</TableCell>
-                  <TableCell className="text-right bg-gray-50 font-bold">{formatPrice(product.totalPrice)}</TableCell>
+                  <TableCell className="text-center bg-gray-50">{product.totalCbm.toFixed(2)}</TableCell>
+                  <TableCell className="text-center bg-gray-50 font-bold">{formatPrice(product.totalPrice)}</TableCell>
                 </TableRow>
               ))}
             </TableBody>

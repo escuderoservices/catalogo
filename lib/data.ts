@@ -21,7 +21,7 @@ export const products: Product[] = [
     finish: "Blanco",
     cbm: 0.13,
     weight: 0,
-    price: 5835,
+    price: 5811,
     suggestedRetailPrice: 11669,
   },
   {
@@ -33,7 +33,7 @@ export const products: Product[] = [
     finish: "Negro",
     cbm: 0.13,
     weight: 0,
-    price: 5835,
+    price: 5811,
     suggestedRetailPrice: 11669,
   },
   {
@@ -45,7 +45,7 @@ export const products: Product[] = [
     finish: "Blanco",
     cbm: 0.12,
     weight: 0,
-    price: 5345,
+    price: 5309,
     suggestedRetailPrice: 10618,
   },
   {
@@ -57,7 +57,7 @@ export const products: Product[] = [
     finish: "Blanco",
     cbm: 0.13,
     weight: 0,
-    price: 6700,
+    price: 6719,
     suggestedRetailPrice: 13625,
   },
   {
@@ -69,7 +69,7 @@ export const products: Product[] = [
     finish: "Negro",
     cbm: 0.13,
     weight: 0,
-    price: 6700,
+    price: 6719,
     suggestedRetailPrice: 13625,
   },
   {
@@ -81,7 +81,7 @@ export const products: Product[] = [
     finish: "Blanco",
     cbm: 0.12,
     weight: 0,
-    price: 6210,
+    price: 6217,
     suggestedRetailPrice: 12574,
   },
   {
@@ -93,7 +93,7 @@ export const products: Product[] = [
     finish: "Blanco",
     cbm: 0.42,
     weight: 0,
-    price: 9203,
+    price: 8642,
     suggestedRetailPrice: 15823,
   },
   {
@@ -105,7 +105,7 @@ export const products: Product[] = [
     finish: "Blanco",
     cbm: 0.42,
     weight: 0,
-    price: 8714,
+    price: 8140,
     suggestedRetailPrice: 14772,
   },
   {
@@ -117,7 +117,7 @@ export const products: Product[] = [
     finish: "Blanco",
     cbm: 0.61,
     weight: 0,
-    price: 10487,
+    price: 11211,
     suggestedRetailPrice: 19817,
   },
   {
@@ -129,7 +129,7 @@ export const products: Product[] = [
     finish: "Blanco",
     cbm: 0.18,
     weight: 0,
-    price: 11851,
+    price: 11976,
     suggestedRetailPrice: 24549,
   },
   {
@@ -141,7 +141,7 @@ export const products: Product[] = [
     finish: "Beige",
     cbm: 0.34,
     weight: 0,
-    price: 3742,
+    price: 3592,
     suggestedRetailPrice: 6436,
   },
   {
@@ -153,7 +153,7 @@ export const products: Product[] = [
     finish: "Gris",
     cbm: 0.34,
     weight: 0,
-    price: 4051,
+    price: 3862,
     suggestedRetailPrice: 7131,
   },
   {
@@ -165,7 +165,7 @@ export const products: Product[] = [
     finish: "gris",
     cbm: 0.31,
     weight: 0,
-    price: 6459,
+    price: 6232,
     suggestedRetailPrice: 10915,
   },
   {
@@ -177,7 +177,7 @@ export const products: Product[] = [
     finish: "gris",
     cbm: 0.49,
     weight: 0,
-    price: 9305,
+    price: 9262,
     suggestedRetailPrice: 15262,
   },
   {
@@ -189,7 +189,7 @@ export const products: Product[] = [
     finish: "gris",
     cbm: 0.59,
     weight: 0,
-    price: 11110,
+    price: 11142,
     suggestedRetailPrice: 18153,
   },
   {
@@ -201,7 +201,7 @@ export const products: Product[] = [
     finish: "gris",
     cbm: 0.50,
     weight: 0,
-    price: 8169,
+    price: 9026,
     suggestedRetailPrice: 14405,
   },
   {
@@ -213,7 +213,7 @@ export const products: Product[] = [
     finish: "gris",
     cbm: 0.78,
     weight: 0,
-    price: 10680,
+    price: 12466,
     suggestedRetailPrice: 27240,
   },
   {
@@ -225,7 +225,7 @@ export const products: Product[] = [
     finish: "gris",
     cbm: 0.94,
     weight: 0,
-    price: 15827,
+    price: 17163,
     suggestedRetailPrice: 29423,
   },
   {
@@ -237,8 +237,8 @@ export const products: Product[] = [
     finish: "Blanco",
     cbm: 0.06,
     weight: 0,
-    price: 4394,
-    suggestedRetailPrice: 5493,
+    price: 4152,
+    suggestedRetailPrice: 7690,
   },
   {
     id: "20",
@@ -249,8 +249,8 @@ export const products: Product[] = [
     finish: "Blanco",
     cbm: 0.06,
     weight: 0,
-    price: 4243,
-    suggestedRetailPrice: 6790,
+    price: 3989,
+    suggestedRetailPrice: 7425,
   },
   {
     id: "21",
@@ -261,8 +261,8 @@ export const products: Product[] = [
     finish: "Blanco",
     cbm: 0.08,
     weight: 0,
-    price: 5632,
-    suggestedRetailPrice: 7990,
+    price: 5315,
+    suggestedRetailPrice: 9855,
   },
   {
     id: "22",
@@ -273,8 +273,8 @@ export const products: Product[] = [
     finish: "Blanco",
     cbm: 0.11,
     weight: 0,
-    price: 7171,
-    suggestedRetailPrice: 9490,
+    price: 6848,
+    suggestedRetailPrice: 12550,
   },
   {
     id: "23",
@@ -285,8 +285,8 @@ export const products: Product[] = [
     finish: "Blanco",
     cbm: 0.09,
     weight: 0,
-    price: 6750,
-    suggestedRetailPrice: 9490,
+    price: 6359,
+    suggestedRetailPrice: 11813,
   },
   {
     id: "24",
@@ -297,8 +297,8 @@ export const products: Product[] = [
     finish: "blanco / miel",
     cbm: 0.05,
     weight: 0,
-    price: 2779,
-    suggestedRetailPrice: 3690,
+    price: 2663,
+    suggestedRetailPrice: 4863,
   },
   {
     id: "25",
@@ -309,8 +309,8 @@ export const products: Product[] = [
     finish: "blanco",
     cbm: 0.05,
     weight: 0,
-    price: 3077,
-    suggestedRetailPrice: 3846,
+    price: 2943,
+    suggestedRetailPrice: 5384,
   },
   {
     id: "26",
@@ -321,8 +321,8 @@ export const products: Product[] = [
     finish: "miel",
     cbm: 0.04,
     weight: 0,
-    price: 2626,
-    suggestedRetailPrice: 3283,
+    price: 2499,
+    suggestedRetailPrice: 4596,
   },
   {
     id: "27",
@@ -333,8 +333,8 @@ export const products: Product[] = [
     finish: "miel",
     cbm: 0.08,
     weight: 0,
-    price: 5361,
-    suggestedRetailPrice: 6790,
+    price: 5098,
+    suggestedRetailPrice: 9382,
   },
   {
     id: "28",
@@ -345,8 +345,8 @@ export const products: Product[] = [
     finish: "blanco",
     cbm: 0.08,
     weight: 0,
-    price: 5361,
-    suggestedRetailPrice: 6790,
+    price: 5098,
+    suggestedRetailPrice: 9382,
   },
   {
     id: "29",
@@ -357,8 +357,8 @@ export const products: Product[] = [
     finish: "blanco",
     cbm: 0.11,
     weight: 0,
-    price: 7300,
-    suggestedRetailPrice: 9490,
+    price: 6935,
+    suggestedRetailPrice: 12774,
   },
   {
     id: "30",
@@ -369,8 +369,8 @@ export const products: Product[] = [
     finish: "blanco",
     cbm: 0.04,
     weight: 0,
-    price: 2545,
-    suggestedRetailPrice: 3181,
+    price: 2413,
+    suggestedRetailPrice: 4454,
   },
   {
     id: "31",
@@ -381,19 +381,7 @@ export const products: Product[] = [
     finish: "blanco",
     cbm: 0.04,
     weight: 0,
-    price: 1319,
-    suggestedRetailPrice: 2300,
-  },
-  {
-    id: "32",
-    image: "https://i.postimg.cc/8Pm0RHmB/silla-milan.jpg",
-    name: "Silla Millan Belloch Negra",
-    collection: "Comedor",
-    sku: "HC -P70N",
-    finish: "Negro",
-    cbm: 0.04,
-    weight: 0,
-    price: 1319,
+    price: 1265,
     suggestedRetailPrice: 2300,
   },
   {
@@ -405,7 +393,7 @@ export const products: Product[] = [
     finish: "blanco",
     cbm: 0.04,
     weight: 0,
-    price: 1026,
+    price: 1295,
     suggestedRetailPrice: 4995,
   },
   {
@@ -417,7 +405,7 @@ export const products: Product[] = [
     finish: "negro",
     cbm: 0.04,
     weight: 0,
-    price: 1026,
+    price: 1337,
     suggestedRetailPrice: 4995,
   },
   {
@@ -429,7 +417,7 @@ export const products: Product[] = [
     finish: "blanca",
     cbm: 0.06,
     weight: 0,
-    price: 1677,
+    price: 1732,
     suggestedRetailPrice: 5500,
   },
   {
@@ -441,7 +429,7 @@ export const products: Product[] = [
     finish: "beige",
     cbm: 0.06,
     weight: 0,
-    price: 1677,
+    price: 1732,
     suggestedRetailPrice: 5500,
   },
   {
@@ -453,7 +441,7 @@ export const products: Product[] = [
     finish: "negro",
     cbm: 0.06,
     weight: 0,
-    price: 1677,
+    price: 1732,
     suggestedRetailPrice: 5500,
   },
   {
@@ -465,8 +453,8 @@ export const products: Product[] = [
     finish: "transparente",
     cbm: 0.02,
     weight: 0,
-    price: 1204,
-    suggestedRetailPrice: 2990,
+    price: 1794,
+    suggestedRetailPrice: 3990,
   },
   {
     id: "39",
@@ -477,7 +465,7 @@ export const products: Product[] = [
     finish: "blanco",
     cbm: 0.11,
     weight: 0,
-    price: 3432,
+    price: 3441,
     suggestedRetailPrice: 6500,
   },
   {
@@ -489,7 +477,7 @@ export const products: Product[] = [
     finish: "negro",
     cbm: 0.11,
     weight: 0,
-    price: 3432,
+    price: 3817,
     suggestedRetailPrice: 6500,
   },
   {
@@ -501,7 +489,7 @@ export const products: Product[] = [
     finish: "transparente",
     cbm: 0.09,
     weight: 0,
-    price: 3258,
+    price: 3283,
     suggestedRetailPrice: 5999,
   },
   {
@@ -513,7 +501,7 @@ export const products: Product[] = [
     finish: "transparente",
     cbm: 0.11,
     weight: 0,
-    price: 3876,
+    price: 3703,
     suggestedRetailPrice: 6950,
   },
   {
@@ -525,7 +513,7 @@ export const products: Product[] = [
     finish: "blanca",
     cbm: 0.17,
     weight: 0,
-    price: 4781,
+    price: 4568,
     suggestedRetailPrice: 7100,
   },
   {
@@ -537,7 +525,7 @@ export const products: Product[] = [
     finish: "transparente",
     cbm: 0.03,
     weight: 0,
-    price: 2899,
+    price: 2911,
     suggestedRetailPrice: 6500,
   },
   {
@@ -549,8 +537,8 @@ export const products: Product[] = [
     finish: "Blanca",
     cbm: 0.08,
     weight: 0,
-    price: 3425,
-    suggestedRetailPrice: 4281,
+    price: 3156,
+    suggestedRetailPrice: 5500,
   },
   {
     id: "46",
@@ -561,8 +549,8 @@ export const products: Product[] = [
     finish: "Blanco",
     cbm: 0.12,
     weight: 0,
-    price: 4456,
-    suggestedRetailPrice: 5570,
+    price: 3695,
+    suggestedRetailPrice: 5500,
   },
   {
     id: "47",
@@ -573,8 +561,8 @@ export const products: Product[] = [
     finish: "negro",
     cbm: 0.12,
     weight: 0,
-    price: 4456,
-    suggestedRetailPrice: 5570,
+    price: 3695,
+    suggestedRetailPrice: 5500,
   },
   {
     id: "48",
@@ -585,8 +573,8 @@ export const products: Product[] = [
     finish: "blanco",
     cbm: 0.12,
     weight: 0,
-    price: 4456,
-    suggestedRetailPrice: 5570,
+    price: 4195,
+    suggestedRetailPrice: 6590,
   },
   {
     id: "49",
@@ -597,8 +585,8 @@ export const products: Product[] = [
     finish: "negro",
     cbm: 0.12,
     weight: 0,
-    price: 4456,
-    suggestedRetailPrice: 5570,
-  }
+    price: 4195,
+    suggestedRetailPrice: 6590,
+  },
 ]
 

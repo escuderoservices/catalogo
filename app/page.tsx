@@ -7,8 +7,8 @@ export default function Home() {
       <main className="flex-1 container mx-auto px-4 py-8">
         <Card className="mb-4">
           <CardHeader>
-            <CardTitle className="text-2xl font-bold font-poppins">Catalogo Digital Venta Mayorista</CardTitle>
-            <p className="text-sm text-gray-500 mt-1">ComboHome v3 2025</p>
+            <CardTitle className="text-2xl font-bold font-poppins">Catálogo Digital Venta Mayorista</CardTitle>
+            <p className="text-sm text-gray-500 mt-1">ComboHome v3.1 2025</p>
           </CardHeader>
         </Card>
         <Catalog />
